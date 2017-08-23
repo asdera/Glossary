@@ -1,0 +1,25 @@
+* {
+	padding: 5px;
+}
+
+body {
+	background: BurlyWood;
+	font-family: Calibri;
+}
+
+h3 {
+	display: inline;
+}
+
+ul {
+	margin: 20px;
+}
+
+/*li {
+	list-style-type: none;
+}
+*/
+select {
+	max-width: 1600px;
+}
+
