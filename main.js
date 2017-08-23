@@ -18,7 +18,7 @@ xhttp.onreadystatechange = function() {
 function define() {
   if (queue.length) {
     word = queue.shift().trim();
-    xhttp.open("GET", "http://www.dictionaryapi.com/api/v1/references/collegiate/xml/" + word + "?key=9a80997f-cf84-4f49-8d2b-2e7fc5b529ca", true);
+    xhttp.open("GET", "https://www.dictionaryapi.com/api/v1/references/collegiate/xml/" + word + "?key=9a80997f-cf84-4f49-8d2b-2e7fc5b529ca", true);
     xhttp.send();
   }
 }
